@@ -1,0 +1,13 @@
+{
+  "short_name": "Audio",
+  "name": "Audio Example App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "permissions": {
+    "audio-capture": {
+      "description": "Required to capture audio using getUserMedia()"
+    }
+  }
+}
